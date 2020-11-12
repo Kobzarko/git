@@ -1,6 +1,6 @@
 package com.metanit;
 
-public class Main {
+public class MainClass {
 
     public static void main(String[] args) {
 	// write your code here
@@ -10,5 +10,13 @@ public class Main {
 
         int value=5;
         System.out.println(value);
+
+        int x, y;
+        x = 5;
+        y = x++;
+
+        System.out.println( x +" , "+ y);
+//        var x=5;
+//        System.out.println(typeof(x));
     }
 }
